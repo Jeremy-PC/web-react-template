@@ -58,3 +58,6 @@
    > - observable 定义一个存储 state 的可追踪字段
    > - action 将一个方法标记为可以修改 state 的 action。
    > - computed 标记一个可以由 state 派生出新的值并且缓存其输出的 getter。
+
+3. 关于运行 npm i 失败的解决方式?
+   > 可能是由于你本地的npm版本是npm@7版本，然而该架构的基于npm@6版本创建的，所以你可以使用“npx -p npm@6 npm i --legacy-peer-deps” 命令来解决npm i安装包失败的问题。

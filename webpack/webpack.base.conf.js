@@ -49,7 +49,7 @@ const getMultiPageApplication = (titleOptions) => {
   return { entry, htmlWebpackPlugins, pageNames };
 };
 const { entry, htmlWebpackPlugins, pageNames } = getMultiPageApplication({
-  index: "全埋点服务",
+  index: "首页",
   authorization: "授权页",
 });
 
