@@ -62,6 +62,7 @@ const baseConfig = {
     filename: "js/[name].[contenthash:8].js",
     assetModuleFilename: "assets/[name].[hash:8][ext]",
   },
+  // 建议alias设置的值，在jsconfig.json也设置，这样在vscode才有提醒
   resolve: {
     extensions: [".js", ".jsx", ".css", ".less"],
     alias: {
