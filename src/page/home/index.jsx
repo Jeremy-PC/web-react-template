@@ -61,7 +61,7 @@ export default observer(() => {
                 value={pageHomeStore.count}
                 disabled={true}
               />
-              <Button type={"primary"} onClick={onDel}>
+              <Button disabled={pageHomeStore.count === 0} type={"primary"} onClick={onDel}>
                 <MinusOutlined />
               </Button>
             </div>
